@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-<<<<<<< HEAD
         <module name="leetcode" />
-=======
-        <module name="lcs" />
->>>>>>> d9a32c83dd5ed08d2467c2a2c1e133cc1c980d22
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Algorithm" target="17" />
+      <module name="leetcode" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
