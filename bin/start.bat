@@ -9,7 +9,7 @@ if not defined DESCRIPTION (
 	DESCRIPTION="默认提交说明"
 )
 :: 当前是在git管理目录的上一级，需要进到git管理的目录下使用git命令
-cd /E "ZStudy\SummerDemo\Algorithm\bin"
+cd \E "ZStudy\SummerDemo\Algorithm\bin"
 :: 拉取最新代码
 git pull origin master
 :: 将所有文件加入到缓冲区
